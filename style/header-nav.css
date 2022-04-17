@@ -2,15 +2,33 @@
     height: 110px;
     width: 110px;
     border-radius: 50%;
-    flex-direction: end;
-    
+    border: 2px solid black;
+    margin-top: 5px;
 }
 .header-nav {
     display: flex;
-    background-color: #1E96FC;
+    background-color: #1a3b58;
     max-height: 80px;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 2px solid black;
+    
+}
+.titulo {
+    font-size: 34px;
+    font-family: 'Cormorant Garamond', serif;    
     
 }
 .titulos {
     display: block;
+    margin-top: 10px;
+    margin-left: 40px;  
+    color: rgb(197, 197, 197);
+}
+.sub-titulo {
+    font-family: sans-serif;
+    margin-left: 30px;
+    font-size: 20px;
+    font-style: italic;
 }
