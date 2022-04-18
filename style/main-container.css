@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns:150px auto 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas: 'lateral-esquerda conteudo-principal lateral-direita' 'lateral-esquerda conteudo-principal lateral-direita' 'lateral-esquerda conteudo-principal lateral-direita';
+}
+.conteudo-principal {
+    background-color: #457b9d;
+    grid-area: conteudo-principal;
+}
+.lateral-esquerda {
+    background-color: #fff;
+    grid-area: lateral-esquerda;
+    border-right: 2px solid black;
+}
+.lateral-direita {
+    background-color: #fff;
+    grid-area: lateral-direita;
+    border-left: 2px solid black;
+}
