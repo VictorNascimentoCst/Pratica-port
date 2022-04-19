@@ -1,23 +1,30 @@
 body {
-    text-align: center;
+   
 }
 .container {
     display: grid;
     grid-template-columns:150px auto 150px;
-    grid-template-rows: 150px 150px 150px;
-    grid-template-areas: 'lateral-esquerda conteudo-principal lateral-direita' 'lateral-esquerda conteudo-principal lateral-direita' 'lateral-esquerda conteudo-principal lateral-direita';
+    grid-template-rows: 250px 250px 250px;
+    grid-template-areas: 'lateral-esquerda conteudo-skills lateral-direita' 'lateral-esquerda conteudo-projetos lateral-direita' 'lateral-esquerda conteudo-contato lateral-direita';
 }
-.conteudo-principal {
+.conteudo-contato {
+    background-color: #1d3557;
+    grid-area: conteudo-contato;
+}
+.conteudo-projetos {
     background-color: #457b9d;
-    grid-area: conteudo-principal;
+    grid-area: conteudo-projetos;
+}
+.conteudo-skills {
+    grid-area: conteudo-skills;
 }
 .lateral-esquerda {
     background-color: #fff;
     grid-area: lateral-esquerda;
-    border-right: 2px solid black;
+    border-right: 5px solid black;
 }
 .lateral-direita {
     background-color: #fff;
     grid-area: lateral-direita;
-    border-left: 2px solid black;
+    border-left: 5px solid black;
 }
