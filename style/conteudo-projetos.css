@@ -1,0 +1,19 @@
+.titulo-projetos {
+    justify-content: center;
+    display: flex;
+    font-family: 'Rajdhani';
+    font-size:34px;
+    font-weight: bolder; 
+    margin-top: 15px;
+    color: black;
+}
+.img-projeto {
+    height: 100px;
+    width: 100px;
+    justify-content: space-around;
+}
+.imgs-projeto {
+    justify-content: space-around;
+    display: flex; 
+    padding-top: 35px;
+}

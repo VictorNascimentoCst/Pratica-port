@@ -8,23 +8,23 @@ body {
     grid-template-areas: 'lateral-esquerda conteudo-skills lateral-direita' 'lateral-esquerda conteudo-projetos lateral-direita' 'lateral-esquerda conteudo-contato lateral-direita';
 }
 .conteudo-contato {
-    background-color: #1d3557;
+    background-color: #000000;
     grid-area: conteudo-contato;
 }
 .conteudo-projetos {
-    background-color: #457b9d;
+   
     grid-area: conteudo-projetos;
 }
 .conteudo-skills {
     grid-area: conteudo-skills;
 }
 .lateral-esquerda {
-    background-color: #fff;
+    background-color: #e5e5e5;
     grid-area: lateral-esquerda;
     border-right: 5px solid black;
 }
 .lateral-direita {
-    background-color: #fff;
+    background-color: #e5e5e5;
     grid-area: lateral-direita;
     border-left: 5px solid black;
 }

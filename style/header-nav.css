@@ -2,18 +2,18 @@
     height: 110px;
     width: 110px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 3px solid ;
     margin-top: 5px;
     position: relative;
 }
 .header-nav {
     display: flex;
-    background-color: #023047;
+    background-color:black ;
     max-height: 80px;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 20px;
-    border-bottom: 5px solid black;
+    border-bottom: 3px solid black;
     
 }
 .titulo {
