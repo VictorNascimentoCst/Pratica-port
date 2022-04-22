@@ -4,7 +4,7 @@
     font-family: 'Rajdhani';
     font-size:34px;
     font-weight: bolder; 
-    margin-top: 15px;
+    margin-top: 5px;
     color: black;
 }
 .img-projeto {
@@ -15,5 +15,28 @@
 .imgs-projeto {
     justify-content: space-around;
     display: flex; 
-    padding-top: 35px;
+    padding-top: 25px;
+}
+.button-projeto {
+    height: 160px;
+    width: 160px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+
+
+.legenda-button{
+    margin-top: 2px;
+    color: black;
+    font-family: 'Rajdhani';
+    font-weight: 400;
+    font-size: 18px;
+}
+.legenda-button2 {
+    margin-top: 2px;
+    color: black;
+    font-family: 'Rajdhani';
+    font-weight: 400;
+    font-size: 15px;
 }
