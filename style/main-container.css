@@ -8,7 +8,7 @@ body {
     grid-template-areas: 'lateral-esquerda conteudo-skills lateral-direita' 'lateral-esquerda conteudo-projetos lateral-direita' 'lateral-esquerda conteudo-contato lateral-direita';
 }
 .conteudo-contato {
-    background-color: #000000;
+    background-color: #fca311;
     grid-area: conteudo-contato;
 }
 .conteudo-projetos {

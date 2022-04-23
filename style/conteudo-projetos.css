@@ -1,3 +1,7 @@
+.conteudo-projetos {
+    border-bottom: 5px solid black;
+}
+
 .titulo-projetos {
     justify-content: center;
     display: flex;
@@ -16,6 +20,7 @@
     justify-content: space-around;
     display: flex; 
     padding-top: 25px;
+    margin-bottom: 5px;
 }
 .button-projeto {
     height: 160px;
@@ -29,14 +34,14 @@
 .legenda-button{
     margin-top: 2px;
     color: black;
-    font-family: 'Rajdhani';
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 18px;
 }
 .legenda-button2 {
-    margin-top: 2px;
+    
     color: black;
-    font-family: 'Rajdhani';
+    font-family: 'Roboto';
     font-weight: 400;
-    font-size: 15px;
+    font-size: 13px;
 }
