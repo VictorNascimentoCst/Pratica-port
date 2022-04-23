@@ -1,12 +1,11 @@
 .img-skill {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     
 }
 .img-skills {
     justify-content:space-around;
-    display: flex;
-    padding-top: 25px;
+    display: flex;  
 }
 .titulo-skills {
     justify-content: center;
@@ -16,6 +15,7 @@
     font-weight: bolder; 
     margin-top: 15px;
     color: black;
+    margin-bottom: 45px;
 }
 .conteudo-skills {
     border-bottom: 5px solid black;
