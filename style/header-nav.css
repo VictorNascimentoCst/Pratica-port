@@ -20,6 +20,7 @@
     font-size:28px;
     margin-bottom: 0px; 
     font-weight: 500; 
+   
     
 }
 .titulos {
@@ -28,12 +29,15 @@
     margin-left: 0px;  
     color:white;
     font-family: 'Rajdhani';
+   
+    
 }
 .sub-titulo {
-    
-     margin-left: 22px;
+   
      font-size: 18px;
      font-weight: 400;
      margin-bottom: 10px;
      font-style: oblique;
+     padding-left: 22px;   
 }
+
